@@ -1,0 +1,22 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <!-- <text class="log-item">{{index + 1}}. {{log}}</text> -->
+    
+  </block>
+  <block>
+
+    <table>
+      <thead>
+        <td>编号</td>
+        <td>姓名</td>
+        <td>电话</td>
+      </thead>
+      <tr wx:for="{{contacts}}">
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.number}}</td>
+      </tr>
+    </table>
+  </block>
+</view>

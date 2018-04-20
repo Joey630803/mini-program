@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/contacts/contacts",
+
+    "pages/logs/logs",
+    "pages/personal/personal"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff7921",
+    "navigationBarTitleText": "社区",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#666666",
+    "selectedColor":"#ff7921",
+    "borderStyle":"white",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./pages/assets/img/icon1.png",
+      "selectedIconPath": "./pages/assets/img/icon1s.png"
+      },
+      {
+      "pagePath": "pages/contacts/contacts",
+      "text": "发帖",
+      "iconPath": "./pages/assets/img/icon2.png",
+      "selectedIconPath": "./pages/assets/img/icon2s.png"
+      },
+      {
+      "pagePath": "pages/personal/personal",
+      "text": "个人中心",
+      "iconPath": "./pages/assets/img/icon3.png",
+      "selectedIconPath": "./pages/assets/img/icon3s.png"
+      }
+
+  ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
